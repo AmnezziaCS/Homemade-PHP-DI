@@ -1,6 +1,6 @@
 # Homemade PHP Dependency injection
 > Fully working PHP DI made by me.
-## Setup :
+## Setup 🚀 :
 
 ### Create class constructors :
 > You will have to make a constructor for each class that goes through the DI featuring it's dependencies such as :
