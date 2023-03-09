@@ -1,9 +1,12 @@
 # Homemade PHP Dependency injection
-> Fully working PHP DI made by me.
-## Setup 🚀 :
 
-### Create class constructors :
-> You will have to make a constructor for each class that goes through the DI featuring it's dependencies such as :
+> Fully working PHP DI made by me.
+
+## Setup 🚀
+
+### Create class constructors
+
+You will have to make a constructor for each class that goes through the DI featuring it's dependencies such as :
 
 ```php
 class Logger 
@@ -20,8 +23,9 @@ class Logger
 } 
 ```
 
-### Replace the instanciated variables :
-> As shown in the code sample above, you will need to change the way your variables are called as they are now stored locally.
+### Replace the instanciated variables
+
+As shown in the code sample above, you will need to change the way your variables are called as they are now stored locally.
 
 ```php
 // Before
@@ -40,9 +44,9 @@ public function example()
 }
 ```
 
-## Call your class using the DI :
+## Call your class using the DI
 
-> If your class and it's dependencies are meeting the requirements shown in the setup part, you will be able to call it using the DI :
+If your class and it's dependencies are meeting the requirements shown in the setup part, you will be able to call it using the DI :
 
 ```php
 $DI = new DI();
